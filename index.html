@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Welcome to Simple HTML on OpenShift</h1>
+    <p class="sub">A Static Site served from a container</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>About this site</h2>
+            <p>This is a simtle HTML site served from a container running on Openshift</p>
+            <p>This is the second paragraph</p>
+            <p>THis is the third paragraph</p>
+        </section>
+
+        <section>
+            <h2>Deployment Instruction</h2>
+            <ol>
+                <li>Build Docker Image and push it to the Docker Hub</li>
+                <li>Deploy image on Openshift via the Web Console</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <h5>Served by Nginx</h5>
+    </footer>
+</body>
+</html>
