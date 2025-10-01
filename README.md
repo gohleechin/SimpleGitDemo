@@ -1,1 +1,1 @@
-# SimpleGitDemo ver1.2
+# SimpleGitDemo ver1.0
